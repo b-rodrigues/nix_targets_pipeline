@@ -27,6 +27,9 @@
       };
       in
       mkShell {
+        shellHook = ''
+             Rscript -e "targets::tar_make()"
+          '';
         LOCALE_ARCHIVE = "${glibcLocales}/lib/locale/locale-archive";
         buildInputs = [
           my-r
