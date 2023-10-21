@@ -1,0 +1,12 @@
+.targets-files
+_targets/.gitignore
+_targets/meta/meta
+_targets/meta/process
+_targets/meta/progress
+_targets/objects/commune_data
+_targets/objects/commune_level_data
+_targets/objects/communes
+_targets/objects/country_data
+_targets/objects/country_level_data
+analyse_data.html
+result
