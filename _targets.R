@@ -31,7 +31,6 @@ list(
   tar_target(
     communes,
     c("Luxembourg",
-      "Esch-sur-Alzette",
       "Mamer",
       "Schengen",
       "Wincrange")
