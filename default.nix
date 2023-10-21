@@ -32,6 +32,6 @@
           '';
         LOCALE_ARCHIVE = "${glibcLocales}/lib/locale/locale-archive";
         buildInputs = [
-          my-r
+          my-r pandoc
           ];
       }
