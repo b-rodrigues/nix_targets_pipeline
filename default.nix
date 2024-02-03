@@ -46,5 +46,5 @@ let
     LC_MEASUREMENT = "en_US.UTF-8";
 
     buildInputs = [ git_archive_pkgs rpkgs  system_packages  ];
-      shellHook = "Rscript -e "targets::tar_make()"";
+      shellHook = "Rscript -e 'targets::tar_make()'";
   }
