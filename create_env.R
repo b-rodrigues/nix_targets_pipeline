@@ -7,6 +7,6 @@ rix(r_ver = "4.2.2",
                    commit = "1c860959310b80e67c41f7bbdc3e84cef00df18e")
       ),
     ide = "other",
-    shell_hook = 'Rscript -e "targets::tar_make()"',
+    shell_hook = "Rscript -e 'targets::tar_make()'",
     project_path = ".",
     overwrite = TRUE)
