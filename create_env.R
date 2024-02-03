@@ -1,3 +1,5 @@
+library(rix)
+
 rix(r_ver = "4.2.2",
     r_pkgs = c("targets", "tarchetypes", "rmarkdown"),
     git_pkgs = list(
