@@ -2,6 +2,7 @@ library(rix)
 
 rix(r_ver = "4.2.2",
     r_pkgs = c("targets", "tarchetypes", "rmarkdown"),
+    system_pkgs = "pandoc",
     git_pkgs = list(
                  list(package_name = "housing",
                    repo_url = "https://github.com/rap4all/housing/",
