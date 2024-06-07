@@ -32,6 +32,7 @@ list(
     communes,
     c("Luxembourg",
       "Mamer",
+      "Wiltz",
       "Schengen",
       "Wincrange")
   ),
