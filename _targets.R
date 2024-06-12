@@ -33,6 +33,7 @@ list(
     c("Luxembourg",
       "Mamer",
       "Wiltz",
+      "Esch-sur-Alzette",
       "Schengen",
       "Wincrange")
   ),
